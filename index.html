@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Monview</title>
+  </head>
+  <body>
+    <div class="relative">
+      <video
+        autoplay
+        muted
+        loop
+        class="mobile-video sm:hidden justify-self-start items-start w-full h-full"
+        src="./public/hero_mobile.mp4"
+        type="video/mp4"
+      ></video>
+      <video
+        autoplay
+        muted
+        loop
+        class="small-video hidden sm:block sm:justify-self-start sm:items-start sm:w-full sm:h-full"
+        id="backgroundVideo"
+        src="./public/hero_small.mp4"
+        type="video/mp4"
+      ></video>
+      <div class="absolute inset-0 flex justify-center items-center z-10">
+        <div
+          class="text-white text-center sm:max-w-80 lg:max-w-96 2xl:max-w-4xl"
+        >
+          <p
+            class="text-4xl font-bold uppercase sm:text-5xl lg:text-7xl 2xl:text-8xl"
+          >
+            Unlock the Power of Your Content with Monview
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mx-5 mt-2 end-10 sm:flex sm:flex-row sm:justify-around sm:mx-10 2xl:justify-between 2xl:mx-32"
+    >
+      <div class="mb-4 flex flex-row sm:hidden">
+        <a href="#" class="my-2 text-xl poppins-font">GET IN TOUCH </a>
+        <svg
+          class="my-auto ml-2"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.52825 18.027L16.1452 9.41011L16.2464 17.0405C16.2545 17.6503 16.7615 18.1573 17.3713 18.1654C17.5161 18.1675 17.6591 18.141 17.7922 18.0874C17.9253 18.0338 18.0458 17.9542 18.1468 17.8532C18.2478 17.7522 18.3274 17.6317 18.381 17.4986C18.4345 17.3655 18.4611 17.2225 18.459 17.0777L18.3223 6.77351C18.3205 6.62871 18.2902 6.48492 18.2331 6.35037C18.176 6.21583 18.0932 6.09317 17.9894 5.98942C17.8857 5.88567 17.763 5.80287 17.6285 5.74575C17.4939 5.68863 17.3501 5.65831 17.2053 5.65654L6.90117 5.51986C6.75641 5.51794 6.61344 5.54455 6.48043 5.59818C6.34743 5.6518 6.22698 5.73139 6.12598 5.83239C6.02497 5.9334 5.94539 6.05384 5.89176 6.18685C5.83814 6.31985 5.81153 6.46282 5.81345 6.60758C5.81537 6.75234 5.84578 6.89607 5.90295 7.03054C5.96013 7.16502 6.04294 7.28762 6.14666 7.39134C6.25038 7.49506 6.37297 7.57787 6.50745 7.63504C6.64193 7.69221 6.78565 7.72263 6.93041 7.72455L14.5608 7.82576L5.94391 16.4427C5.51962 16.867 5.52895 17.5706 5.96465 18.0063C6.40034 18.442 7.10397 18.4513 7.52825 18.027Z"
+            fill="white"
+          />
+        </svg>
+      </div>
+      <div class="max-w-96 text-left lg:max-w-96 2xl:max-w-lg">
+        <span class="text-base font-bold poppins-font lg:text-2xl"
+          >Monview is a video monetization platform for independent creators and
+          enterprises that allows for the rapid creation of FAST channels for
+          monetization and direct interaction with the audience.</span
+        >
+      </div>
+      <div
+        class="mt-5 flex flex-col sm:mt-0 sm:mx-4 lg:text-right lg:text-2xl lg:max-w-96 2xl:max-w-lg"
+      >
+        <span class="text-2xl lg:text-2xl lg:text-3xl 2xl:text-4xl"
+          >YOUR ULTIMATE VIDEO MONETIZATION PARTNER!</span
+        >
+        <span class="poppins-font text-rose-700 mt-2 sm:text-xl lg:text-2xl"
+          >We offer all the necessary tools for streaming and generating a
+          stable income from videos, including built-in analytics and marketing
+          tools that streamline operations in the video sphere.</span
+        >
+      </div>
+    </div>
+  </body>
+</html>

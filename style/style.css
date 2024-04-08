@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  font-family: Big Shoulders Display;
+  color: white;
+}
+
+.small-video {
+  filter: brightness(0.4);
+}
+
+.mobile-video {
+  filter: brightness(0.4);
+}
+
+.poppins-font {
+  font-family: poppins;
+}
+
+.bsd_font {
+  font-family: Big Shoulders Display;
+}
